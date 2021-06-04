@@ -1,0 +1,15 @@
+{
+    "name": "getsharp/sharper-framework",
+    "description": "fastest php rest api framework",
+    "type": "framework",
+    "require": {
+        "swiftmailer/swiftmailer": "^6.2"
+    },
+    "authors": [
+        {
+            "name": "Albert Omwega",
+            "email": "alboomdj@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}

@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+    Options -Indexes
+    
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+  
+    RewriteRule ^ index.php [L]
+</IfModule>
